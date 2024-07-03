@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 let head = React.createElement("h1",{
     id:"firstLine"
 }, "Hello 1");
@@ -17,6 +21,9 @@ let h2 = React.createElement("div",{
 let headDiv = React.createElement("div",{
     id:"head"
 }, [h1, h2]);
+
+
+
 
 let root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(headDiv);   

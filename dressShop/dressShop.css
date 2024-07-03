@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px #F2B705;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 3rem;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu > li {
+    margin: 10px;
+    color: #262626;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+.menu > li:hover{
+    text-decoration: overline #F2A20C;
+}
+
+.cards {
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 4rem;
+}
+
+.card {
+    width: 175px;
+    height: 300px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 3px #262626;
+    border-radius: 10%;
+}
+
+.dressImg {
+    width: 100%;
+    height: 70%;
+    border-radius: 10%;
+    
+}
+
+.card-description {
+    text-align: center;
+}
+
+.search-option{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.search-bar{
+    width: 25%;
+    margin-right: 5px;
+    height: 1.5rem;
+    border-radius: 50px;
+}
+
+.search-btn{
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    background-color: #F28F16;
+    border-color: transparent;
+    box-shadow: 2px 2px 3px black;
+}
